@@ -17,6 +17,6 @@ test("difference 1 -2 to equal -1", () => {
 });
 
 test("13 squared is 169", () => {
-    expect(funcs.square).toBe(169);
+    expect(funcs.square(13)).toBe(169);
 });
 
