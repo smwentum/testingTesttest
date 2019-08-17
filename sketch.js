@@ -1,5 +1,11 @@
-function sum(a, b) {
-  return a + b;
-}
+const funcs = {
+  sum(a, b) {
+    return a + b;
+  },
 
-module.exports = sum;
+  difference(a, b) {
+    return a - b;
+  }
+};
+
+module.exports = funcs;
