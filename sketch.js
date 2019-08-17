@@ -5,6 +5,10 @@ const funcs = {
 
   difference(a, b) {
     return a - b;
+    }
+
+  square(a) {
+      return a * a;
   }
 };
 
